@@ -1,0 +1,15 @@
+block0@base:
+  file = block-example-base.vm
+  var0 = defined
+  var1 = base
+  var2 = base
+block1@extend:
+  file = block-example-base.vm
+  var0 = defined
+  var1 = extended
+  var2 = base
+block2@base:
+  file = block-example-base.vm
+  var0 = defined
+  var1 = extended
+  var2 = base

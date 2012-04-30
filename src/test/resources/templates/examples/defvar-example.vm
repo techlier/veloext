@@ -1,0 +1,6 @@
+#defvar($var, 'value')
+var = $var
+#defvar($var, 'this statememnt is not effective')
+var = $var
+#set($var = 'value is changed')
+var = $var

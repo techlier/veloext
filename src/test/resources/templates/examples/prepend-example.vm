@@ -1,0 +1,5 @@
+#apply('base.vm')
+#prepend('block1')
+block1@prepend:
+#end
+#end

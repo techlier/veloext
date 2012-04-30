@@ -1,0 +1,9 @@
+#apply('apply-example-base.vm')
+#block('block1')
+block1 is overwritten at example.vm.
+#end
+#block('undefined')
+Block dose not output because it isn't defined in base.vm.
+#end
+Text outside block directive dose not output.
+#end

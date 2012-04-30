@@ -1,0 +1,14 @@
+-- test1-extend2.vm --
+#apply('test1-extend1.vm')
+#block('block1-2')
+> block1-2@test1-extend2:
+#end
+
+#block("block2")
+block2@test1-extend2:
+#end
+
+#block("block3-2")
+> block3-2@test1-extend2:
+#end
+#end

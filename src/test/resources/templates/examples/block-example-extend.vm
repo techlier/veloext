@@ -1,0 +1,12 @@
+#set($file = 'block-example-extend.vm')
+#apply('block-example-base.vm')
+#block('block1')
+#set($var1 = 'extended')
+#defvar($var2, 'extended')
+block1@extend:
+  file = $file
+  var0 = $var0
+  var1 = $var1
+  var2 = $var2
+#end
+#end

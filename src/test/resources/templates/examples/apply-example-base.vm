@@ -1,0 +1,6 @@
+#block('block1')
+block1 is defined at base.vm.
+#end
+#block('block2')
+block2 is defined at base.vm.
+#end

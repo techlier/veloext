@@ -1,0 +1,25 @@
+-- test1-base.vm --
+#block('block0')
+block0@test1-base:
+#end
+
+#block('block1')
+block1@test1-base:
+#end
+
+#block('block2')
+block2@test1-base:
+#block('block2-0')
+> block2-0@test1-base:
+#end
+#end
+
+#block('block3')
+block3@test1-base:
+#block('block3-1')
+> block3-1@test1-base:
+#end
+#block('block3-2')
+> block3-2@test1-base:
+#end
+#end

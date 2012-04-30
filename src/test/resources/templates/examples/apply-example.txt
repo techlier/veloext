@@ -1,0 +1,2 @@
+block1 is overwritten at example.vm.
+block2 is defined at base.vm.

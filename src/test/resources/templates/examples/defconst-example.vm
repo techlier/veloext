@@ -1,0 +1,3 @@
+#defconst($CONSTANT, 'immutable')
+#set($CONSTANT = 'this statement is not effective')
+const = $CONSTANT

@@ -1,0 +1,3 @@
+Before importing 'test.vm'.
+#import('test.vm')
+After importing 'test.vm'.
